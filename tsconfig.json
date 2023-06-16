@@ -19,8 +19,11 @@
         "name": "next"
       }
     ],
+    "baseUrl": "./src/app",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/components/*": ["components/*"],
+      "@/lib/*": ["lib/*"],
+      "@/constants/*": ["constants/*"],
     }
   },
   "include": [

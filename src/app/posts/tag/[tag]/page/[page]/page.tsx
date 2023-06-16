@@ -1,11 +1,11 @@
-import Pagination from '@/app/components/Pagination/Pagination';
-import Post from '../../../../../components/Post/Post';
+import Pagination from '@/components/Pagination/Pagination';
+import Post from '@/components/Post/Post';
 import {
   getPostsByTagAndPage,
   getNumberOfPagesByTag,
   getAllTags,
-} from '../../../../../lib/notion/notionAPI';
-import Tag from '@/app/components/Tag/Tag';
+} from '@/lib/notion/notionAPI';
+import Tag from '@/components/Tag/Tag';
 
 export const revalidate = 1;
 

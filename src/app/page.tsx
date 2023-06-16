@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import Post from './components/Post/Post';
+import Post from '@/components/Post/Post';
 import { fetchAllInDB, getAllTags, getPostsForTopPage } from './lib/notion/notionAPI';
-import Tag from './components/Tag/Tag';
+import Tag from '@/components/Tag/Tag';
 
 export const revalidate = 1;
 
