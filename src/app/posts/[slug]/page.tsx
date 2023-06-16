@@ -1,11 +1,6 @@
-import { getSingplePost } from '@/app/lib/notion/notionAPI';
+import { getSingplePost } from '@/lib/notion/notionAPI';
 import React from 'react';
-import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
-import remarkGfm from 'remark-gfm';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-// import { dark } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
-import { dark } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
-import PostContent from '@/app/components/Post/PostContent';
+import PostContent from '@/components/Post/PostContent';
 import Link from 'next/link';
 
 export const revalidate = 1;
