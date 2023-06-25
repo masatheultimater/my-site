@@ -1,4 +1,4 @@
-import { getPageLink } from '@/app/lib/blog-helper';
+import { getPageLink } from '@/lib/blog-helper';
 import Link from 'next/link';
 import React from 'react';
 
@@ -23,7 +23,7 @@ function Pagination(props: Props) {
           <li className='bg-sky-900 rounded-lg w-6 h-8 relative' key={page}>
             <Link
               href={getPageLink(tag, page)}
-              className='text-gray-100 absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4'
+              className='text-gray-900 absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4'
             >
               {page}
             </Link>
