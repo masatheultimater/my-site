@@ -1,7 +1,7 @@
 import { Client } from '@notionhq/client';
 import { NotionToMarkdown } from 'notion-to-md';
 import { NotionBlock } from '@9gustin/react-notion-render';
-import { NUMBER_OF_POSTS_PER_PAGE } from '@/app/constants/constants';
+import { NUMBER_OF_POSTS_PER_PAGE } from '@/constants/constants';
 
 const notion = new Client({
   auth: process.env.NOTION_TOKEN,
