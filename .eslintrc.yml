@@ -20,6 +20,7 @@ extends:
   - plugin:@typescript-eslint/eslint-recommended
   - plugin:@typescript-eslint/recommended
   - plugin:jest/recommended
+  - plugin:storybook/recommended
   - prettier
 ignorePatterns: {
     '/lib/**/*',
